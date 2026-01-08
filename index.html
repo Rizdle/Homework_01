@@ -6,6 +6,13 @@
     <title>Document</title>
     <style>
         
+        *{
+            box-sizing: border-box;
+        margin:0;
+        padding: 0%;
+        
+        }
+
         body {
             background-color: rgb(119, 119, 119); 
         margin: 0;
@@ -14,7 +21,7 @@
 
         
         
-        ul {
+    .headline ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,14 +30,14 @@
     justify-content: center;
     }
 
-    ul li a {
+    .headline a {
     display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     }
 
-    ul li a:hover {
+    .headline a:hover {
     background-color: #f88725;
     }
             
@@ -39,11 +46,14 @@
 
         .page {
             background-color: rgb(212, 212, 212); width:595px; height: 842px;
+            border: 2px solid #333333;
+            padding: 20px;
+            margin: auto;
+            margin-top: 60px;
             /* align-content: center; */
             /* justify-content: center; */
-            border: 3px solid #333333;
-            position: absolute;
-            left: 30%; top: 15%;
+            /* position: absolute;
+            left: 30%; top: 15%; */
             /* transform: translate(-0%, -30%); */
 
         }
@@ -56,38 +66,68 @@
         .layout{
             padding: 20px;
         }
+
+        .softskill{
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 120px;
+            
+        }
+        .hardskill{
+            display: inline-block;
+            margin-left: 40px;
+        }
+
+        hr{
+            margin-top: 20px;
+        }
+
+
+        .box2{
+            margin-top: 20px;
+        }
+
+        .box2 h2 h3{
+            
+            margin-top: 5px;}
     </style>
 </head>
 
 
 
 
+
+
+
 <body> 
-    
+    <div class="headline">
     <ul>
     <li><a href="./index.html"> Home </a></li>
     <li><a href="./education.html"> Education</a></li>
     <li><a href="./work.html"> Work</a></li>
     <li><a href="./contact.html"> Contact</a></li>
+    </div>
+
     </ul>
 
 <div class="page">
     <div class="layout">
-        <div><img src="./image/boy_3034577.png" width="120px" alt="profile_pic"></div>
+        <div><img src="./picture/boy_3034577.png" width="140px" alt="profile_pic"></div>
         <h1 class="name">Arnon Saelee</h1>
         <h3>full stack developer</h3>
-        <p class="overview">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quisquam cum officia laborum! Perspiciatis, magni vero obcaecati aliquid commodi accusantium est? Aliquam libero velit et vitae quisquam, quo repudiandae mollitia aut explicabo sit fugit, hic consectetur itaque veritatis laudantium. Sint voluptas id corrupti blanditiis architecto provident minima in quos placeat! Quos, deserunt officia aspernatur quaerat quo quod id reprehenderit voluptatum obcaecati.</p>
+        <p class="overview">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quisquam cum officia laborum! Perspiciatis, magni vero obcaecati aliquid commodi accusantium est? Aliquam libero velit et vitae quisquam, quo repudiandae mollitia aut explicabo sit fugit, hic consectetur itaque veritatis .</p>
         <hr>
+        <div class="box2">
         <h2>Personal Info</h2>
         <h3>Location: BKk,Thailand</h3>
         <h3>Phone:(66)970604129</h3>
         <h3>email: arno.l.rider@gmail.com</h3>
-    
+        </div>
 
         <hr>
 
-        <div class="headskill">
-            <p>Hard Skill</p>
+        <div class="hardskill">
+            <p><B>Hard Skill</B></p>
             <ul>
                 <li>Model</li>
                 <li>Javascript</li>
@@ -96,7 +136,7 @@
         </div>
 
         <div class="softskill">
-            <p>Soft Skill</p>
+            <p><Soft><b> Soft Skill </b></p>
             <ul>
                 <li>Comunicate</li>
                 <li>Good learn</li>

@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+  *{
+            box-sizing: border-box;
+        margin:0;
+        padding: 0%;
+        
+        }
+
 body {
             background-color: rgb(119, 119, 119); 
         margin: 0;
@@ -32,14 +39,15 @@ ul li a {
     }
 
 form {
-    margin: 0;
+    margin: auto;
+    margin-top: 80px;
     padding: 50px;
     background-color: azure;
     border-radius: 20px;
     border: 3px solid; color:rgb(26, 26, 26);
     width: 30%;
-    position: absolute;
-    left: 30%; top: 15%;
+    /* position: absolute;
+    left: 30%; top: 15%; */
 }
 
 .input-area{
@@ -57,8 +65,10 @@ input{
 select{
     display: block;width: 100%;}
 
-.inline{display: inline-block;
-width:auto}
+.button{display: inline-block;
+
+    width:auto}
+
 
     </style>
 </head>
@@ -109,7 +119,7 @@ width:auto}
                 <textarea  id="note" rows="7" cols="58"></textarea>
                 </div>
 
-                <div class="inline">
+                <div class="button">
 
                     <input type="submit" value="Send" >
                     <input type="reset" value="Clear" >
