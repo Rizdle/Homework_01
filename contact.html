@@ -57,19 +57,24 @@ form {
 .button{display: inline;
 border-radius: 2px;}
 
-h1,h4{margin: 0%;}
+h1,h4{margin-bottom: 6px;}
 
 input{
+    margin-bottom: 20px;
     display: block;width: 100%;}
 
 select{
+    margin-top: px;
     display: block;width: 100%;}
 
-.button{display: inline-block;
+.inline{
+    margin-top: 20px;
+    /* background-color: #f88725; */
+    display:inline;
+    width:80px;}
 
-    width:auto}
-
-
+.note{margin-top: 20px;
+margin-bottom: 9px;display: block;}
     </style>
 </head>
 
@@ -114,17 +119,18 @@ select{
                     <option value="">oter</option>
                 </select>
 
-                <div class="input-area">
+                <div  class="note">
+
                 <label for="note">Note</label>
                 <textarea  id="note" rows="7" cols="58"></textarea>
                 </div>
 
-                <div class="button">
+                
 
-                    <input type="submit" value="Send" >
-                    <input type="reset" value="Clear" >
+                    <input type="submit" value="Send" class="inline" >
+                    <input type="reset" value="Clear" class="inline">
                     
-                </div>
+                
 
             </div>
 
