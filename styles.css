@@ -1,0 +1,18 @@
+*{
+            box-sizing: border-box;
+        margin:0;
+        padding: 0%;
+        
+        }
+
+        Body{
+background-color: rgb(119, 119, 119); 
+
+        }
+
+        .page {
+            background-color: rgb(212, 212, 212); width:595px; height: 570px;
+            border: 2px solid #333333;
+            padding: 20px;
+            margin: auto;
+            margin-top: 60px;}
